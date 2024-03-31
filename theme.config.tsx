@@ -2,16 +2,32 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  logo: <span>Study Box</span>,
   footer: {
-    text: 'Nextra Docs Template',
+    text: `© 2021-${new Date().getFullYear()} NobodyLocaler(localer)`,
+  },
+  editLink: {
+    text: ""
+  },
+  feedback: {
+    content: ""
+  },
+  themeSwitch: {
+    useOptions: {
+      dark: "ダークモード",
+      light: "ライトモード",
+      system: "システム(自動)"
+    }
+  },
+  search: {
+    placeholder: "検索"
+  },
+  useNextSeoProps: () => ({
+    titleTemplate: "%s - Study Box",
+    defaultTitle: "名前のないページ - Study Box"
+  }),
+  chat: {
+    link: 'https://discord.gg/eaVvcDzWPe'
   },
 }
 
