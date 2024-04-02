@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{"/about":[],"/":[],"/math-1/1":[],"/math-1/2":[],"/math-1/3":[],"/math-1/4":[],"/math-a/2":[],"/math-a/1":[],"/math-a/3":[]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}';
