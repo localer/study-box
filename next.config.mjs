@@ -13,5 +13,5 @@ export default withNextra({
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV == "production" ? '/study-box' : "",
+  basePath: process.env.NODE_ENV == "production" ? '/study-box' : "",
 })
