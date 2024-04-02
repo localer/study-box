@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps: () => ({
     titleTemplate: "%s - Study Box",
     defaultTitle: "名前のないページ - Study Box",
-    description: "%s"
+    description: "勉強目的のサイトのつもり 勉強分からないって人がいたから、補助してあげたいなと思った"
   }),
   chat: {
     link: 'https://discord.gg/eaVvcDzWPe'
